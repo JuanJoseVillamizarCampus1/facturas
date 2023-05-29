@@ -1,0 +1,8 @@
+CREATE DATABASE facturacion
+
+CREATE TABLE categorias(
+id INT PRIMARY KEY AUTO_INCREMENT,
+nombre VARCHAR (50) NOT NULL,
+descripcion VARCHAR (100),
+imagen VARCHAR(100)
+);
